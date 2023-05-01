@@ -41,7 +41,7 @@ function SocialLinks() {
           Resume <BsFillPersonLinesFill size={30} />
         </>
       ),
-      href: "/resume.pdf",
+      href: "/Erik_TrejoLujano_Resume.pdf",
       style: "rounded-br-md",
       download: true,
     },
