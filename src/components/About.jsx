@@ -14,7 +14,7 @@ const About = () => {
         </div>
         <p className="text-xl mt-20">About Section</p>
         <br />
-        <p className="text-xl">Second About Section</p>
+        <p className="text-xl">Coming Soon!</p>
       </div>
     </div>
   );

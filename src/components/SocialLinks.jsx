@@ -31,7 +31,7 @@ function SocialLinks() {
           Mail <HiOutlineMail size={30} />
         </>
       ),
-      href: "malito:trejolujano.erik@gmail.com",
+      href: "mailto:trejolujano.erik@gmail.com",
       //   style: "rounded-tr-md",
     },
     {
