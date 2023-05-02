@@ -8,13 +8,14 @@ const Navbar = () => {
     { id: 1, link: "home" },
     { id: 2, link: "about" },
     { id: 3, link: "portfolio" },
-    { id: 4, link: "experience" },
-    { id: 5, link: "contact" },
+    { id: 4, link: "skills" },
+    { id: 5, link: "experience" },
+    { id: 6, link: "contact" },
   ];
   return (
     <div
       className="flex justify-between items-center w-full h-20 px-4
-  text-white bg-black fixed"
+     text-white bg-black fixed"
     >
       <div>
         <h1 className="text-5xl font-signature">Erik Trejo Lujano</h1>

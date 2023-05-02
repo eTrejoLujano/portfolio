@@ -13,7 +13,7 @@ function SocialLinks() {
         </>
       ),
       href: "https://www.linkedin.com/in/erik-trejo-lujano/",
-      style: "rounded-tr-md",
+      style: "rounded-tr-md bg-blue-600",
     },
     {
       id: 2,
@@ -23,6 +23,7 @@ function SocialLinks() {
         </>
       ),
       href: "https://github.com/eTrejoLujano",
+      style: "bg-gray-500",
     },
     {
       id: 3,
@@ -32,7 +33,7 @@ function SocialLinks() {
         </>
       ),
       href: "mailto:trejolujano.erik@gmail.com",
-      //   style: "rounded-tr-md",
+      style: "bg-green-600",
     },
     {
       id: 4,
@@ -42,7 +43,7 @@ function SocialLinks() {
         </>
       ),
       href: "/Erik_TrejoLujano_Resume.pdf",
-      style: "rounded-br-md",
+      style: "rounded-br-md bg-blue-400",
       download: true,
     },
   ];
@@ -53,7 +54,7 @@ function SocialLinks() {
           <li
             key={id}
             className={
-              "flex justify-between items-center w-40 h-14 px-4 bg-gray-500 hover:rounded-md duration-300 ml-[-100px] hover:ml-[-10px]" +
+              "flex justify-between items-center w-40 h-14 px-4 hover:rounded-md duration-300 ml-[-100px] hover:ml-[-10px]" +
               " " +
               style
             }
