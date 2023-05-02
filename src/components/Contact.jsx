@@ -13,13 +13,13 @@ const Contact = () => {
     >
       <div
         className="flex flex-col p-4 justify-center max-w-screen-lg mx-auto h-full delay-[300ms] duration-[600ms] taos:translate-y-[200px] taos:opacity-0"
-        // data-aos="fade-up"
-        // data-aos-offset="100"
-        // data-aos-duration="1000"
-        // data-aos-easing="ease-in-out"
-        // data-aos-mirror="true"
-        // data-aos-once="false"
-        // data-aos-anchor-placement="top-center"
+        data-aos="fade-up"
+        data-aos-offset="100"
+        data-aos-duration="1000"
+        data-aos-easing="ease-in-out"
+        data-aos-mirror="true"
+        data-aos-once="false"
+        data-aos-anchor-placement="top-center"
       >
         <div className="pb-8">
           <p className="text-4xl font-bold inline border-b-4 border-gray-500">
