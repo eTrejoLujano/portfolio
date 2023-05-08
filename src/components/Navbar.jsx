@@ -9,7 +9,7 @@ const Navbar = () => {
     { id: 2, link: "about" },
     { id: 3, link: "portfolio" },
     { id: 4, link: "skills" },
-    { id: 5, link: "experience" },
+    // { id: 5, link: "experience" },
     { id: 6, link: "contact" },
   ];
   return (
@@ -18,7 +18,7 @@ const Navbar = () => {
      text-white bg-black fixed"
     >
       <div>
-        <h1 className="text-5xl font-signature">Erik Trejo Lujano</h1>
+        <h1 className="text-5xl font-signature">ET</h1>
       </div>
       <ul className="hidden md:flex">
         {links.map((link) => (

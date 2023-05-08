@@ -8,7 +8,7 @@ const Contact = () => {
   return (
     <div
       name="contact"
-      className="w-full h-screen bg-gradient-to-b from-gray-800 to-black
+      className="w-full h-screen bg-gradient-to-b to-gray-800 from-black
     p-4 text-white"
     >
       <div
