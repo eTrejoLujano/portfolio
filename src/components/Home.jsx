@@ -11,10 +11,7 @@ function Home() {
   //             what it does, video (demo?). For home page: See my work - portfolio,
   //             connect with me - contact.
   return (
-    <div
-      name="home"
-      className="h-screen w-full bg-gradient-to-b from-black via-black to-gray-800 text-white"
-    >
+    <div name="home" className="h-screen w-full bg-gray-900 text-white">
       <div
         className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row"
         data-aos="fade-up"
@@ -35,7 +32,7 @@ function Home() {
               to="portfolio"
               smooth
               duration={500}
-              className="group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer"
+              className="group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-teal-500 cursor-pointer"
             >
               Portfolio
               <span className="group-hover:rotate-90 duration-300">

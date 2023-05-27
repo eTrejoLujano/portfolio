@@ -6,11 +6,7 @@ AOS.init();
 
 const Contact = () => {
   return (
-    <div
-      name="contact"
-      className="w-full h-screen bg-gradient-to-b to-gray-800 from-black
-    p-4 text-white"
-    >
+    <div name="contact" className="w-full h-screen bg-gray-900 text-white">
       <div
         className="flex flex-col p-4 justify-center max-w-screen-lg mx-auto h-full delay-[300ms] duration-[600ms] taos:translate-y-[200px] taos:opacity-0"
         data-aos="fade-up"
