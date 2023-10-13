@@ -1,30 +1,21 @@
 import React from "react";
 import { MdOutlineKeyboardArrowRight } from "react-icons/md";
 import { Link } from "react-scroll";
-import AOS from "aos";
-import "aos/dist/aos.css";
-
-AOS.init();
 
 function Home() {
   //  Description - A call to action. github readme - screenshots, say
   //             what it does, video (demo?). For home page: See my work - portfolio,
   //             connect with me - contact.
   return (
-    <div name="home" className="h-screen w-full bg-gray-900 text-white">
-      <div
-        className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row"
-        data-aos="fade-up"
-        data-aos-offset="100"
-        data-aos-duration="1000"
-        data-aos-easing="ease-in-out"
-        data-aos-mirror="true"
-        data-aos-once="false"
-        data-aos-anchor-placement="top-center"
-      >
+    <div
+      name="home"
+      className="h-screen w-full bg-gradient-to-b to-teal-950 from-gray-900 text-white"
+    >
+      <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row">
         <div className="flex flex-col justify-center h-full">
           <h2 className="text-4xl sm:text-7xl font-bold text-white">
-            I'm a Full Stack Developer
+            I'm a Full Stack Developer who loves to develop and optimize
+            innovate projects and ideas
           </h2>
           <p className="text-gray-500 py-4 max-w-md"></p>
           <div>

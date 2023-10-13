@@ -14,8 +14,6 @@ import node from "../assets/technologies/node.png";
 import tailwind from "../assets/technologies/tailwind.png";
 import materialui from "../assets/technologies/materialui.png";
 
-AOS.init();
-
 const Skills = () => {
   const techs = [
     { id: 1, src: javascript, title: "Javascript", style: "shadow-yellow-400" },
@@ -32,17 +30,13 @@ const Skills = () => {
     { id: 12, src: materialui, title: "Material UI", style: "shadow-blue-600" },
   ];
   return (
-    <div name="skills" className="bg-gray-900 w-full h-full">
+    <div
+      name="skills"
+      className="bg-gradient-to-b from-teal-950 to-gray-900 w-full h-full"
+    >
       <div
         className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full
          text-white"
-        data-aos="fade-up"
-        data-aos-offset="100"
-        data-aos-duration="1000"
-        data-aos-easing="ease-in-out"
-        data-aos-mirror="true"
-        data-aos-once="false"
-        data-aos-anchor-placement="top-center"
       >
         <div>
           <p className="text-4xl font-bold border-b-4 border-gray-500 p-2 inline">
