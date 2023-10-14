@@ -72,8 +72,8 @@ const Portfolio = () => {
         />
       ),
       description: [
-        "iRent is a company with a long record of excellent customer satisfaction through its innovative property management software.",
-        "I developed and tailored the reports section of the website with each report having its own unqiue requirements to fetch and display its data.",
+        "iRent is a company with a long record of excellent customer service and satisfaction through its innovative property management software.",
+        "By using data automation, the iRent website gives users analytics involving tenant aquisition, management, and billing.",
         "iRent includes tenant screening, full accounting, reporting, and online tenant payment capabilities.",
       ],
       links: [
@@ -112,9 +112,9 @@ const Portfolio = () => {
         />
       ),
       description: [
-        "WorkFlo is a project management web application built by a team of developers by using with Javascript and Node.",
-        "WorkFlo makes the development process easier by playing the role acting as a tool to optimize and e It gives users the power to conveniently order groceries and meals from any location.",
-        "Users can also choose to pick up their order and keep track of their past orders and receipts.",
+        "WorkFlo is a project management web application built by a team of developers using Javascript and Node.",
+        "WorkFlo makes the project development process easier by offering a tool that creates a timeline of goals and objectives.",
+        "There is also an option to utilize the virtual collaborative whiteboard tool, Excalidraw, to depict a direction for the project.",
       ],
       links: [
         { name: "Read Me", exist: true },
