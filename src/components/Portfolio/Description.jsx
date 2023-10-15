@@ -17,7 +17,18 @@ import {
   SiMui,
 } from "react-icons/si";
 
-const Description = ({ name, techStack, description, links, readme }) => {
+const Description = ({
+  projectName,
+  imgname,
+  techStack,
+  description,
+  links,
+  readMe,
+  modalInfo,
+  openModal,
+  closeModal,
+  readMeDescription,
+}) => {
   const techs = {
     Javascript: { name: "JavaScript", logo: <SiJavascript size={30} /> },
     HTML: { name: "HTML", logo: <SiHtml5 size={30} /> },
@@ -32,10 +43,17 @@ const Description = ({ name, techStack, description, links, readme }) => {
     Express: { name: "Express", logo: <SiExpress size={30} /> },
     Mui: { name: "MaterialUI", logo: <SiMui size={30} /> },
   };
-  console.log("name tech kubjs readme", name, techStack, links, readme);
+  console.log(
+    "name tech kubjs readme",
+    projectName,
+    techStack,
+    links,
+    readMe,
+    readMeDescription
+  );
   return (
     <div className="space-y-6 w-full lg:w-7/12">
-      <div className="text-xl font-bold">{name}</div>
+      <div className="text-xl font-bold">{projectName}</div>
       <div className="flex space-x-5 text-lg">
         {links.map(({ name, exist }) => {
           if (exist)
@@ -45,6 +63,17 @@ const Description = ({ name, techStack, description, links, readme }) => {
                 rel="noreferrer"
                 href={exist}
                 target="_blank"
+                onClick={() => {
+                  if (name === "Read Me") {
+                    modalInfo({
+                      name: projectName,
+                      readMe,
+                      readMeDescription,
+                      imgname,
+                    });
+                    openModal();
+                  }
+                }}
               >
                 <div>{name}</div>
                 {name === "Read Me" && (
