@@ -49,7 +49,7 @@ const ReadMe = ({ name, imgname, readMeDescription, readMe, closeModal }) => {
           {readMe.map((picture, index) => (
             <img
               src={picture}
-              className="w-fit aspect-square rounded-xl border-gray-300 border"
+              className="w-fit aspect-auto rounded-xl border-gray-300 border"
               alt=""
             />
           ))}
