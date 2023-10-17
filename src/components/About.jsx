@@ -69,7 +69,7 @@ const About = () => {
         <p className="font-bold text-xl">How did I get into programming?</p>
         <p className="text-md">
           I've been programming for over two years and taught myself by going
-          through several YouTube videos, the Nucamp cirriculum, and the Full
+          through several YouTube tutorials, the Nucamp cirriculum, and the Full
           Stack Academy full-time bootcamp. Since writing my first line of code
           I've been passionate about the power of programming and how much
           potential it holds for developing world changing software and
