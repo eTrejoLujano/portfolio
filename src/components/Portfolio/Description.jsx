@@ -15,11 +15,12 @@ import {
   SiSequelize,
   SiExpress,
   SiMui,
+  SiAmazonaws,
+  SiRedux,
 } from "react-icons/si";
 
 const Description = ({
   projectName,
-  imgname,
   techStack,
   description,
   links,
@@ -30,18 +31,62 @@ const Description = ({
   readMeDescription,
 }) => {
   const techs = {
-    Javascript: { name: "JavaScript", logo: <SiJavascript size={30} /> },
-    HTML: { name: "HTML", logo: <SiHtml5 size={30} /> },
-    Python: { name: "Python", logo: <SiPython size={30} /> },
-    Django: { name: "Django", logo: <SiDjango size={30} /> },
-    React: { name: "React", logo: <SiReact size={30} /> },
-    TailwindCSS: { name: "TailwindCSS", logo: <SiTailwindcss size={30} /> },
-    PostgreSQL: { name: "PostgreSQL", logo: <SiPostgresql size={30} /> },
-    CSS: { name: "CSS", logo: <SiCss3 size={30} /> },
-    Sequelize: { name: "Sequelize", logo: <SiSequelize size={30} /> },
-    MySQL: { name: "MySQL", logo: <GrMysql size={30} /> },
-    Express: { name: "Express", logo: <SiExpress size={30} /> },
-    Mui: { name: "MaterialUI", logo: <SiMui size={30} /> },
+    Javascript: {
+      name: "JavaScript",
+      logo: <SiJavascript className="fill-yellow-400" size={30} />,
+    },
+    HTML: {
+      name: "HTML",
+      logo: <SiHtml5 className="fill-orange-400" size={30} />,
+    },
+    Python: {
+      name: "Python",
+      logo: <SiPython className="fill-blue-400" size={30} />,
+    },
+    Django: {
+      name: "Django",
+      logo: <SiDjango className="fill-green-800" size={30} />,
+    },
+    React: {
+      name: "React",
+      logo: <SiReact className="fill-blue-500" size={30} />,
+    },
+    TailwindCSS: {
+      name: "TailwindCSS",
+      logo: <SiTailwindcss className="fill-blue-300" size={30} />,
+    },
+    PostgreSQL: {
+      name: "PostgreSQL",
+      logo: <SiPostgresql className="fill-blue-500" size={30} />,
+    },
+    CSS: {
+      name: "CSS",
+      logo: <SiCss3 className="fill-yellow-300" size={30} />,
+    },
+    Sequelize: {
+      name: "Sequelize",
+      logo: <SiSequelize className="fill-blue-500" size={30} />,
+    },
+    MySQL: {
+      name: "MySQL",
+      logo: <GrMysql className="fill-blue-400" size={30} />,
+    },
+    Express: {
+      name: "Express",
+      logo: <SiExpress className="fill-gray-300" size={30} />,
+    },
+    Mui: {
+      name: "MaterialUI",
+      logo: <SiMui className="fill-blue-600" size={30} />,
+    },
+    AWS: {
+      name: "Amazon Web Services",
+      logo: <SiAmazonaws className="fill-orange-400" size={30} />,
+    },
+    Redux: {
+      name: "Redux",
+      logo: <SiRedux className="fill-purple-500" size={30} />,
+    },
   };
   console.log(
     "name tech kubjs readme",
@@ -53,7 +98,7 @@ const Description = ({
   );
   return (
     <div className="space-y-6 w-full lg:w-7/12">
-      <div className="text-xl font-bold">{projectName}</div>
+      <div className="text-2xl font-bold">{projectName}</div>
       <div className="flex space-x-5 text-lg">
         {links.map(({ name, exist }) => {
           if (exist)
@@ -69,7 +114,6 @@ const Description = ({
                       name: projectName,
                       readMe,
                       readMeDescription,
-                      imgname,
                     });
                     openModal();
                   }
@@ -96,13 +140,15 @@ const Description = ({
         })}
       </div>
       {description.map((bullet) => (
-        <div className="text-sm">{bullet}</div>
+        <div className="text-md">{bullet}</div>
       ))}
       <div className="flex items-center space-x-5 w-full lg:w-full">
-        <div className="w-[8rem] truncate font-bold">Tech Stack</div>
+        <div className="w-[9rem] truncate text-lg font-bold">Tech Stack</div>
         <div className="w-full h-[.1rem] bg-white"></div>
       </div>
-      <div className={`grid grid-cols-3 md:grid-cols-8 gap-3 grid-flow-row`}>
+      <div
+        className={`grid grid-cols-3 md:grid-cols-8 gap-y-5 gap grid-flow-row`}
+      >
         {techStack.map((tech) => (
           <div className="flex flex-col items-center justify-center space-y-3 w-full">
             <div>{techs[tech].logo}</div>

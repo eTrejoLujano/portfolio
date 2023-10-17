@@ -41,7 +41,7 @@ function App() {
         openModal={openModal}
         closeModal={closeModal}
       />
-      <Skills />
+      {/* <Skills /> */}
       {/* <Experience /> */}
       <Contact />
     </div>

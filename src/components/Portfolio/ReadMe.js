@@ -26,10 +26,10 @@ const ReadMe = ({ name, imgname, readMeDescription, readMe, closeModal }) => {
   useOnClickOutside(readMeRef, () => closeModal());
 
   return (
-    <div className="fixed flex w-full h-full justify-center items-center z-10">
+    <div className="fixed py-[1rem] flex w-full h-full overflow-y-scroll overscroll-y-contain justify-center z-10">
       <div
         ref={readMeRef}
-        className="px-[1rem] w-[42rem] h-fit bg-gray-50 py-[1rem] rounded-xl space-y-[2rem]"
+        className="px-[1rem] w-[42rem] h-fit bg-gray-100 py-[1rem] rounded-xl space-y-[2rem]"
       >
         <div className="flex justify-between w-full">
           <div className="font-extrabold text-3xl">{name}</div>
@@ -39,26 +39,20 @@ const ReadMe = ({ name, imgname, readMeDescription, readMe, closeModal }) => {
             onClick={() => closeModal()}
           />
         </div>
-        <div className="text-gray-400">{readMeDescription}</div>
-        <div>Hi</div>
+        <div className="text-gray-500">{readMeDescription}</div>
+
         <div className="space-y-[1rem]">
           <div className="flex space-x-2 items-center">
             <BsCameraFill size={24} />
             <div className="font-bold text-xl">Screenshots</div>
           </div>
-          {readMe.map((picture, index) => {
-            console.log(
-              "the picture",
-              `../../../public/${imgname}/Page${index + 1}.png`
-            );
-            return (
-              <img
-                src={`../../../public/${imgname}/Page${index + 1}.png`}
-                className="w-full h-fit"
-                alt=""
-              />
-            );
-          })}
+          {readMe.map((picture, index) => (
+            <img
+              src={picture}
+              className="w-full h-fit rounded-xl border-gray-300 border"
+              alt=""
+            />
+          ))}
         </div>
       </div>
     </div>

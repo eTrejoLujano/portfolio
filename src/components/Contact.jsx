@@ -3,7 +3,7 @@ const Contact = () => {
   return (
     <div
       name="contact"
-      className="w-full h-screen bg-gradient-to-b to-teal-950 from-gray-900 text-white"
+      className="w-full h-screen bg-gradient-to-b to-gray-900 from-teal-950 text-white"
     >
       <div className="flex flex-col p-4 justify-center max-w-screen-lg mx-auto h-full delay-[300ms] duration-[600ms] taos:translate-y-[200px] taos:opacity-0">
         <div className="pb-8">
