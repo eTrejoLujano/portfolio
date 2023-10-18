@@ -3,12 +3,15 @@ const Contact = () => {
   return (
     <div
       name="contact"
-      className="space-y-[2rem] w-full px-[1rem] lg:px-[6rem] py-[6rem] h-screen bg-gradient-to-b to-gray-900 from-teal-950 text-white"
+      className="space-y-[2rem] w-full px-[1rem] lg:px-[6rem] pt-[6rem] h-full bg-gradient-to-b to-gray-900 from-teal-950 text-white"
     >
       <p className="text-4xl font-bold inline border-b-4 border-gray-500">
         Contact
       </p>
-      <div className="flex w-full h-full items-center justify-between space-x-[4rem]">
+      <div
+        className="flex lg:flex-row flex-col w-full h-full items-center justify-between
+         divide-y-2 lg:divide-y-0 lg:divide-x-2 space-y-[2rem] lg:space-y-0 lg:space-x-[2rem] lg:pb-[7rem]"
+      >
         <form
           action="https://getform.io/f/3889bb99-1bea-4880-b192-ddfa83b32328"
           method="POST"
@@ -41,17 +44,37 @@ const Contact = () => {
             Lets Talk!
           </button>
         </form>
-        <div className="h-full w-[.1rem] bg-white" />
-        <div className="flex flex-col w-full text-xl space-y-[2rem]">
-          <div>Erik Trejo Lujano</div>
+        <div className="flex flex-col h-full pb-[8rem] pt-[3rem] lg:pt-0 pl-0 justify-center lg:pl-[2rem] w-full text-xl space-y-[2rem]">
+          <div>Erik Trejo</div>
           <div>
             <div>Email:</div>
             <div>trejolujano.erik@gmail.com</div>
           </div>
           <div>
-            {" "}
             <div>Phone Number:</div>
             <div>(408) 497 - 1264</div>
+          </div>
+          <div>
+            <div>LinkedIn:</div>
+            <a
+              target="_blank"
+              rel="noreferrer"
+              href="https://www.linkedin.com/in/erik-trejo-lujano/"
+              className="hover:text-teal-500"
+            >
+              https://www.linkedin.com/in/erik-trejo-lujano/
+            </a>
+          </div>
+          <div>
+            <div>GitHub:</div>
+            <a
+              target="_blank"
+              rel="noreferrer"
+              href=" https://github.com/eTrejoLujano"
+              className="hover:text-teal-500"
+            >
+              https://github.com/eTrejoLujano
+            </a>
           </div>
         </div>
       </div>

@@ -1,6 +1,7 @@
 import React from "react";
 import { MdOutlineKeyboardArrowRight } from "react-icons/md";
 import { Link } from "react-scroll";
+import picture from "../assets/logos/profilepicture.jpeg";
 
 function Home() {
   //  Description - A call to action. github readme - screenshots, say
@@ -9,13 +10,13 @@ function Home() {
   return (
     <div
       name="home"
-      className="h-screen w-full bg-gradient-to-b to-teal-950 from-gray-900 text-white"
+      className="h-screen w-full bg-gradient-to-b to-teal-950 from-gray-900 text-white py-[4rem]"
     >
-      <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row">
+      <div className="w-full px-[2rem] pt-[3rem] lg:pt-0 space-y-[2rem] lg:space-y-0 lg:px-[6rem] flex flex-col items-center h-full justify-center lg:justify-between lg:flex-row">
         <div className="flex flex-col justify-center h-full">
-          <h2 className="text-4xl sm:text-7xl font-bold text-white">
+          <h2 className="text-5xl sm:text-6xl font-bold text-white">
             I'm a Full Stack Developer who loves to develop and innovate
-            projects and ideas
+            projects and ideas.
           </h2>
           <p className="text-gray-500 py-4 max-w-md"></p>
           <div>
@@ -32,10 +33,12 @@ function Home() {
             </Link>
           </div>
         </div>
-        <div>
-          <h1 alt="my profile" className="rounded-2xl mx-auto w-2/3 md:w-full">
-            profile image
-          </h1>
+        <div className="h-full flex items-center justify-center">
+          <img
+            src={picture}
+            alt="my profile"
+            className="rounded-full w-full sm:w-[25rem] lg:w-[70rem] aspect-square"
+          />
         </div>
       </div>
       {/* {MdOutlineKeyboardArrowRight} */}
