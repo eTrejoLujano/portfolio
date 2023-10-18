@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef } from "react";
+import React, { useEffect, useRef } from "react";
 import { VscClose } from "react-icons/vsc";
 import { BsCameraFill } from "react-icons/bs";
 

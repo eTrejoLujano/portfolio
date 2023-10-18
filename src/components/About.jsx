@@ -1,5 +1,4 @@
 import React from "react";
-import { MdWavingHand } from "react-icons/md";
 import {
   SiHtml5,
   SiTailwindcss,
@@ -51,7 +50,7 @@ const About = () => {
   return (
     <div
       name="about"
-      className="w-screen h-full bg-gradient-to-b from-teal-950 to-gray-900 text-white px-[1rem] lg:px-[6rem] py-[6rem] space-y-[3rem] z-0"
+      className="w-screen h-full bg-gradient-to-b from-teal-950 to-gray-900 text-white px-[1rem] lg:px-[6rem] py-[6rem] space-y-[4rem] z-0"
     >
       <p className="text-4xl font-bold inline border-b-4 border-gray-500">
         About

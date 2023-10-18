@@ -5,9 +5,9 @@ import SocialLinks from "./components/SocialLinks";
 import About from "./components/About";
 import Portfolio from "./components/Portfolio/Portfolio";
 // import Experience from "./components/Experience";
-import Contact from "./components/Contact";
+import Contact from "./components/Portfolio/Contact";
 import Skills from "./components/Skills";
-import ReadMe from "./components/Portfolio/ReadMe";
+import ReadMe from "./components/ReadMe";
 
 function App() {
   const [modalBoolean, setModalBoolean] = useState();

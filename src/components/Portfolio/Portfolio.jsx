@@ -171,7 +171,7 @@ const Portfolio = ({ modalInfo, openModal, closeModal }) => {
   return (
     <div
       name="portfolio"
-      className="bg-gradient-to-b to-teal-950 from-gray-900 w-screen h-full text-white px-[1rem] lg:px-[6rem] py-[6rem] space-y-[5rem] z-0"
+      className="bg-gradient-to-b to-teal-950 from-gray-900 w-screen h-full text-white px-[1rem] lg:px-[6rem] py-[6rem] space-y-[4rem] z-0"
     >
       <div className="">
         <p className="text-4xl font-bold inline border-b-4 border-gray-500">
