@@ -10,9 +10,9 @@ function Home() {
   return (
     <div
       name="home"
-      className="h-screen w-full bg-gradient-to-b to-teal-950 from-gray-900 text-white py-[4rem]"
+      className="h-full w-full pt-[3rem] lg:pt-0 bg-gradient-to-b to-teal-950 from-gray-900 text-white py-[4rem]"
     >
-      <div className="w-full px-[2rem] pt-[3rem] lg:pt-0 space-y-[2rem] lg:space-y-0 lg:px-[6rem] flex flex-col items-center h-full justify-center lg:justify-between lg:flex-row">
+      <div className="w-full px-[2rem] space-y-[2rem] lg:space-y-0 lg:px-[6rem] flex flex-col items-center h-full justify-center lg:justify-between lg:flex-row">
         <div className="flex flex-col justify-center h-full">
           <h2 className="text-5xl sm:text-6xl font-bold text-white">
             I'm a Full Stack Developer who loves to develop and innovate
