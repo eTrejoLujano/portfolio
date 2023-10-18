@@ -60,7 +60,7 @@ const About = () => {
           <p className="font-bold text-xl">Hi there, I'm Erik!</p>
         </div>
         <p className="text-md">
-          I'm a full stack developer who was born and raised in San Jose and
+          I'm a full-stack developer who was born and raised in San Jose and
           with a Bachelors degree from San Jose State University.
         </p>
       </div>
@@ -71,7 +71,7 @@ const About = () => {
           through several YouTube tutorials, the Nucamp cirriculum, and the Full
           Stack Academy full-time bootcamp. Since writing my first line of code
           I've been passionate about the power of programming and how much
-          potential it holds for developing world changing software and
+          potential it holds for creating world changing software and
           technology.
         </p>
         <p className="text-md">

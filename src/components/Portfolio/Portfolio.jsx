@@ -95,7 +95,7 @@ const Portfolio = ({ modalInfo, openModal, closeModal }) => {
       ],
       readMe: [DE1, DE2, DE3, DE4, DE5, DE6],
       readMeDescription:
-        "A full featured Property Management Software that allows you to maximize revenue through automation.",
+        "A fully featured Property Management Software that allows you to maximize revenue through automation.",
     },
     {
       name: "WorkFlo",

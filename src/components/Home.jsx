@@ -15,8 +15,8 @@ function Home() {
       <div className="w-full px-[2rem] lg:px-[6rem] flex flex-col items-center h-full justify-center lg:justify-between lg:flex-row">
         <div className="flex flex-col justify-center h-full">
           <h2 className="text-4xl sm:text-6xl font-bold text-white">
-            I'm a Full Stack Developer who loves to develop and innovate
-            projects and ideas.
+            I'm a full-stack developer who uses code to develop and innovate
+            exciting projects and ideas.
           </h2>
           <p className="text-gray-500 py-4 max-w-md"></p>
           <div>
