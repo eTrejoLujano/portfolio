@@ -16,7 +16,6 @@ function App() {
     setReadMeInfo(readMeObject);
   };
   const openModal = () => {
-    console.log("ay");
     setModalBoolean(true);
   };
   const closeModal = () => {

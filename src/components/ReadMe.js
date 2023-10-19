@@ -20,7 +20,6 @@ function useOnClickOutside(ref, handler) {
 }
 
 const ReadMe = ({ name, imgname, readMeDescription, readMe, closeModal }) => {
-  console.log("readMeDescription", readMeDescription, "readme", readMe);
   const readMeRef = useRef(null);
 
   useOnClickOutside(readMeRef, () => closeModal());
@@ -29,7 +28,7 @@ const ReadMe = ({ name, imgname, readMeDescription, readMe, closeModal }) => {
     <div className="fixed py-[1rem] flex w-full h-full overflow-y-scroll overscroll-y-contain justify-center z-10">
       <div
         ref={readMeRef}
-        className="px-[1rem] w-[42rem] h-fit bg-gray-100 py-[1rem] rounded-xl space-y-[2rem]"
+        className="px-[1rem] w-[52rem] h-fit bg-gray-100 py-[1rem] rounded-xl space-y-[2rem]"
       >
         <div className="flex justify-between w-full">
           <div className="font-extrabold text-3xl">{name}</div>

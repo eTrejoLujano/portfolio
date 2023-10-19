@@ -88,14 +88,6 @@ const Description = ({
       logo: <SiRedux className="fill-purple-500" size={30} />,
     },
   };
-  console.log(
-    "name tech kubjs readme",
-    projectName,
-    techStack,
-    links,
-    readMe,
-    readMeDescription
-  );
   return (
     <div className="space-y-6 w-full lg:w-7/12">
       <div className="text-2xl font-bold">{projectName}</div>
