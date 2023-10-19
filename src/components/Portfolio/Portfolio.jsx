@@ -24,6 +24,31 @@ import O3 from "../../assets/projects/Oregano/Page3.png";
 import O4 from "../../assets/projects/Oregano/Page4.png";
 import O5 from "../../assets/projects/Oregano/Page5.png";
 import O6 from "../../assets/projects/Oregano/Page6.png";
+import iRH from "../../assets/projects/iRent/Homepage.png";
+import iR0 from "../../assets/projects/iRent/Page0.png";
+import iR1 from "../../assets/projects/iRent/Page1.jpeg";
+import iR2 from "../../assets/projects/iRent/Page2.png";
+import iR3 from "../../assets/projects/iRent/Page3.png";
+import iR4 from "../../assets/projects/iRent/Page4.png";
+import iR5 from "../../assets/projects/iRent/Page5.png";
+import iR6 from "../../assets/projects/iRent/Page6.jpeg";
+import iR7 from "../../assets/projects/iRent/Page7.jpeg";
+import iR8 from "../../assets/projects/iRent/Page8.jpeg";
+import iR9 from "../../assets/projects/iRent/Page9.jpeg";
+import iR10 from "../../assets/projects/iRent/Page10.jpeg";
+import iR11 from "../../assets/projects/iRent/Page11.jpeg";
+import iR12 from "../../assets/projects/iRent/Page12.jpeg";
+import iR13 from "../../assets/projects/iRent/Page13.jpeg";
+import iR14 from "../../assets/projects/iRent/Page14.jpeg";
+import iR15 from "../../assets/projects/iRent/Page15.png";
+import iR16 from "../../assets/projects/iRent/Page16.png";
+import iR17 from "../../assets/projects/iRent/Page17.png";
+import iR18 from "../../assets/projects/iRent/Page18.png";
+import iR19 from "../../assets/projects/iRent/Page19.png";
+import iR20 from "../../assets/projects/iRent/Page20.png";
+import iR21 from "../../assets/projects/iRent/Page21.png";
+import iR22 from "../../assets/projects/iRent/Page22.jpeg";
+import iR23 from "../../assets/projects/iRent/Page23.jpeg";
 
 const Portfolio = ({ modalInfo, openModal, closeModal }) => {
   const projects = [
@@ -93,7 +118,33 @@ const Portfolio = ({ modalInfo, openModal, closeModal }) => {
         },
         { name: "Live", exist: "https://myirent.netlify.app/" },
       ],
-      readMe: [DE1, DE2, DE3, DE4, DE5, DE6],
+      readMe: [
+        iRH,
+        iR0,
+        iR1,
+        iR2,
+        iR3,
+        iR4,
+        iR5,
+        iR6,
+        iR7,
+        iR8,
+        iR9,
+        iR10,
+        iR11,
+        iR12,
+        iR13,
+        iR14,
+        iR15,
+        iR16,
+        iR17,
+        iR18,
+        iR19,
+        iR20,
+        iR21,
+        iR22,
+        iR23,
+      ],
       readMeDescription:
         "A fully featured Property Management Software that allows you to maximize revenue through automation.",
     },
