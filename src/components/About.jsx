@@ -69,7 +69,7 @@ const About = () => {
         <p className="text-md">
           I've been programming for over two years and taught myself by going
           through several YouTube tutorials, the Nucamp cirriculum, and the Full
-          Stack Academy full-time bootcamp. Since writing my first line of code
+          Stack Academy full-time bootcamp. Since writing my first line of code,
           I've been passionate about the power of programming and how much
           potential it holds for creating world changing software and
           technology.
@@ -77,7 +77,7 @@ const About = () => {
         <p className="text-md">
           I was recently employed by a small startup called Carrion Technologies
           LLC where I worked on the iRent website for a client of ours. After
-          completing the website I've aimed to improve on my skills by building
+          completing the website, I've aimed to improve on my skills by building
           Dashed Eats which helped me practice and learn TailwindCSS and Django.
           I'm now looking to build a strong foundation for the fundamentals of
           frontend development while also specializing in more backend

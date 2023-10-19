@@ -76,6 +76,7 @@ const Portfolio = ({ modalInfo, openModal, closeModal }) => {
         "Dashed Eats is a food delivery web application built with Javascript and Python.",
         "It gives users the power to conveniently order groceries and meals from any location via the Google Maps API.",
         "Users also have the ability to pick up their orders and keep track of their past purchases and receipts.",
+        "Dashed Eats is strictly a personal project and does not place real orders.",
       ],
       links: [
         { name: "Read Me", exist: true },
@@ -95,9 +96,12 @@ const Portfolio = ({ modalInfo, openModal, closeModal }) => {
         "Javascript",
         "React",
         "Express",
+        "Redux",
         "Sequelize",
         "MySQL",
+        "Mui",
         "HTML",
+        "CSS",
       ],
       logo: (
         <img
@@ -203,9 +207,9 @@ const Portfolio = ({ modalInfo, openModal, closeModal }) => {
         />
       ),
       description: [
-        "Dashed Eats is a food delivery web application built with Javascript and Python.",
-        "It gives users the power to conveniently order groceries and meals from any location.",
-        "Users can also choose to pick up their order and keep track of their past orders and receipts.",
+        "Oregano is an E-commerce website built by a team of developers using Javascript and Node.",
+        "Oregano promotes fashionable and organic clothing to keep customers looking stylish, sustainably.",
+        "The website is strictly a group project for the Full Stack Academy bootcamp, not meant to take real orders.",
       ],
       links: [
         { name: "Read Me", exist: true },
@@ -213,10 +217,11 @@ const Portfolio = ({ modalInfo, openModal, closeModal }) => {
           name: "Code",
           exist: "https://github.com/eTrejoLujano/Oregano",
         },
-        { name: "Live", exist: "https://workfloproduction.onrender.com/" },
+        { name: "Live", exist: "https://oreganoproduction.onrender.com/" },
       ],
       readMe: [O1, O2, O3, O4, O5, O6],
-      readMeDescription: "readMeDescription",
+      readMeDescription:
+        "A website that promotes stylish clothing and environmental awareness for a healthy, better looking future.",
     },
   ];
   return (

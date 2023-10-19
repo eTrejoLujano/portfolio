@@ -15,28 +15,34 @@ const Contact = () => {
         <form
           action="https://getform.io/f/3889bb99-1bea-4880-b192-ddfa83b32328"
           method="POST"
-          className="flex flex-col w-full"
+          className="flex flex-col w-full space-y-3"
         >
-          <input
-            type="text"
-            name="name"
-            placeholder="Enter your name"
-            className="p-2 bg-transparent border-2 rounded-md text-white
+          <div className="space-y-2">
+            <div className="text-lg font-semibold">Name</div>
+            <input
+              type="text"
+              name="name"
+              className="p-2 w-full bg-transparent border-2 rounded-md text-white
               focus:outline-none"
-          />
-          <input
-            type="text"
-            name="email"
-            placeholder="Enter your Email"
-            className="my-4 p-2 bg-transparent border-2 rounded-md text-white
+            />
+          </div>
+          <div className="space-y-2">
+            <div className="text-lg font-semibold">Email</div>
+            <input
+              type="text"
+              name="email"
+              className="my-4 w-full p-2 bg-transparent border-2 rounded-md text-white
               focus:outline-none"
-          />
-          <textarea
-            name="message"
-            placeholder="Enter your message"
-            rows="10"
-            className="p-2 bg-transparent border-2 rounded-md text-white focus:outline-none"
-          />
+            />
+          </div>
+          <div className="space-y-2">
+            <div className="text-lg font-semibold">Message</div>
+            <textarea
+              name="message"
+              rows="10"
+              className="w-full p-2 bg-transparent border-2 rounded-md text-white focus:outline-none"
+            />
+          </div>
           <button
             className="text-white bg-gradient-to-b from-cyan-500 to-blue-500 px-6
             py-3 my-8 mx-auto flex items-center rounded-md hover:scale-110 duration-300"
