@@ -12,7 +12,7 @@ function Home() {
       name="home"
       className="h-screen w-full pt-[2rem] lg:pt-0 bg-gradient-to-b to-teal-950 from-gray-900 text-white py-[4rem]"
     >
-      <div className="w-full px-[2rem] relative top-[6rem] lg:top-0 lg:px-[6rem] flex flex-col items-center h-full justify-center lg:justify-between lg:flex-row">
+      <div className="w-full px-[2rem] relative top-[4rem] lg:top-0 lg:px-[6rem] flex flex-col items-center h-full justify-center lg:justify-between lg:flex-row">
         <div className="flex flex-col justify-center h-full">
           <h2 className="text-4xl sm:text-6xl font-bold text-white">
             I'm a full-stack developer who uses code to create and innovate cool
