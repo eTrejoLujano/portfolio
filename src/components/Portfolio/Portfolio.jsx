@@ -182,7 +182,7 @@ const Portfolio = ({ modalInfo, openModal, closeModal }) => {
       ],
       readMe: [WF1, WF2, WF3, WF4, WF5],
       readMeDescription:
-        "A work management web application where teams can ideate plans, collaborate on projects, organize workflows, and track progress in a visual and productive way.",
+        "A work management web application where teams can collaborate on projects, organize workflows, and track progress in a visual and productive way.",
     },
     {
       name: "Oregano",
