@@ -22,7 +22,7 @@ function App() {
     setModalBoolean(false);
   };
   return (
-    <div>
+    <div className="overflow-y-hidden">
       <Navbar />
       {modalBoolean ? (
         <ReadMe
