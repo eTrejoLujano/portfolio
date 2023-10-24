@@ -77,7 +77,7 @@ const About = () => {
         <p className="text-md">
           I was recently employed by a small startup called Carrion Technologies
           LLC where I worked on the iRent website for a client of ours. After
-          completing the website, I've aimed to improve on my skills by building
+          innovating the website, I've been working on my skills by building
           Dashed Eats which helped me practice and learn TailwindCSS and Django.
           I'm now looking to build a strong foundation for the fundamentals of
           frontend development while also specializing in more backend
