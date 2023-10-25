@@ -111,7 +111,7 @@ const Portfolio = ({ modalInfo, openModal, closeModal }) => {
       description: [
         "iRent is a company with a reputation for excellent customer service and satisfaction through its innovative property management software.",
         "By using data automation, the iRent website gives the user analytics involving tenant aquisition, management, and billing.",
-        "iRent equips the user with the ability to manage and receive information on tenant screening, full accounting, reporting, and online tenant payment capabilities.",
+        "iRent also equips the user with the ability to manage and receive information on tenant screening, full accounting, reporting, and online tenant payment capabilities.",
       ],
       links: [
         { name: "Read Me", exist: true },
