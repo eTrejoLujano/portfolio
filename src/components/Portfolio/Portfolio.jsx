@@ -1,8 +1,5 @@
-import React, { useState } from "react";
+import React from "react";
 import Description from "./Description";
-import oregano from "../../assets/projects/oregano.png";
-import irent from "../../assets/projects/irent.png";
-import workflo from "../../assets/projects/workflo.png";
 import DashedEats from "../../assets/logos/dashedeats.png";
 import iRent from "../../assets/logos/irent.png";
 import WorkFlo from "../../assets/logos/workflo.jpg";
@@ -59,7 +56,7 @@ const Portfolio = ({ modalInfo, openModal, closeModal }) => {
         "Python",
         "React",
         "Django",
-        "TailwindCSS",
+        "Tailwind CSS",
         "Redux",
         "HTML",
         "CSS",
@@ -68,6 +65,7 @@ const Portfolio = ({ modalInfo, openModal, closeModal }) => {
       ],
       logo: (
         <img
+          alt=""
           src={DashedEats}
           className="w-[30rem] rounded-full bg-white aspect-square"
         />
@@ -105,6 +103,7 @@ const Portfolio = ({ modalInfo, openModal, closeModal }) => {
       ],
       logo: (
         <img
+          alt=""
           src={iRent}
           className="w-[30rem] rounded-full bg-white aspect-square"
         />
@@ -167,6 +166,7 @@ const Portfolio = ({ modalInfo, openModal, closeModal }) => {
       ],
       logo: (
         <img
+          alt=""
           src={WorkFlo}
           className="w-[30rem] rounded-full bg-white aspect-square"
         />
@@ -202,6 +202,7 @@ const Portfolio = ({ modalInfo, openModal, closeModal }) => {
       ],
       logo: (
         <img
+          alt=""
           src={Oregano}
           className="w-[30rem] rounded-full bg-white aspect-square"
         />

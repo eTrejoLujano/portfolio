@@ -51,8 +51,8 @@ const Description = ({
       name: "React",
       logo: <SiReact className="fill-blue-500" size={30} />,
     },
-    TailwindCSS: {
-      name: "TailwindCSS",
+    "Tailwind CSS": {
+      name: "Tailwind CSS",
       logo: <SiTailwindcss className="fill-blue-300" size={30} />,
     },
     PostgreSQL: {
@@ -144,7 +144,7 @@ const Description = ({
         {techStack.map((tech) => (
           <div className="flex flex-col items-center justify-center space-y-3 w-full">
             <div>{techs[tech].logo}</div>
-            <div className="h-fit py-1 w-fit flex items-center justify-center px-2 text-sm rounded-lg bg-black font-semibold">
+            <div className="h-fit py-1 truncate w-fit flex items-center justify-center px-2 text-sm rounded-lg bg-black font-semibold">
               {tech}
             </div>
           </div>

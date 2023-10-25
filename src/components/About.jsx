@@ -28,7 +28,7 @@ const About = () => {
     },
     { name: "Django", logo: <SiDjango className="fill-green-800" size={30} /> },
     {
-      name: "TailwindCSS",
+      name: "Tailwind CSS",
       logo: <SiTailwindcss className="fill-blue-300" size={30} />,
     },
     {
@@ -78,11 +78,11 @@ const About = () => {
           I was recently employed by a small startup called Carrion Technologies
           LLC where I worked on the iRent website for a client of ours. After
           innovating the website, I've been working on my skills by building
-          Dashed Eats which helped me practice and learn TailwindCSS and Django.
-          I'm now looking to build a strong foundation for the fundamentals of
-          frontend development while also specializing in more backend
-          technologies. To achieve this I'm developing a Trello clone website
-          with a vanilla Javascript frontend and a Golang backend.
+          Dashed Eats which helped me practice and learn Tailwind CSS and
+          Django. I'm now looking to build a strong foundation for the
+          fundamentals of frontend development while also specializing in more
+          backend technologies. To achieve this I'm developing a Trello clone
+          website with a vanilla Javascript frontend and a Golang backend.
         </p>
       </div>
       <div className="space-y-6">
