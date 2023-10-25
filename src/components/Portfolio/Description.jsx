@@ -96,7 +96,7 @@ const Description = ({
           if (exist)
             return (
               <a
-                className="px-3 w-fit h-[2.6rem] flex items-center justify-center rounded-lg bg-teal-500 hover:bg-white hover:text-teal-500 space-x-1 cursor-pointer"
+                className="px-3 w-fit h-[2.6rem] flex items-center justify-center rounded-lg bg-teal-500 hover:bg-white hover:text-teal-500 space-x-1 cursor-pointer transition delay-75"
                 rel="noreferrer"
                 href={exist}
                 target="_blank"

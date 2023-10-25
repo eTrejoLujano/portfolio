@@ -4,9 +4,6 @@ import { Link } from "react-scroll";
 import picture from "../assets/logos/profilepicture.jpeg";
 
 function Home() {
-  //  Description - A call to action. github readme - screenshots, say
-  //             what it does, video (demo?). For home page: See my work - portfolio,
-  //             connect with me - contact.
   return (
     <div
       name="home"
@@ -19,18 +16,27 @@ function Home() {
             projects and ideas
           </h2>
           <p className="text-gray-500 py-4 max-w-md"></p>
-          <div>
+          <div className="flex space-x-[1rem]">
             <Link
               to="portfolio"
               smooth
               duration={500}
-              className="group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-teal-500 cursor-pointer"
+              className="group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-teal-500 cursor-pointer hover:bg-white hover:text-teal-500 transition delay-75"
             >
               Portfolio
               <span className="group-hover:rotate-90 duration-300">
                 <MdOutlineKeyboardArrowRight size={25} className="ml-1" />
               </span>
             </Link>
+            <a
+              download={true}
+              href="/ErikTrejo_Resume.pdf"
+              target="_blank"
+              rel="noreferrer"
+              className="group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-teal-500 cursor-pointer hover:bg-white hover:text-teal-500 transition delay-75"
+            >
+              Download Resume
+            </a>
           </div>
         </div>
         <div className="h-full flex items-center justify-center">
