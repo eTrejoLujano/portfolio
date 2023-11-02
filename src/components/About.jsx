@@ -72,7 +72,7 @@ const About = () => {
           Stack Academy full-time bootcamp. Since writing my first line of code,
           I've been passionate about the power of programming and how much
           potential it holds for creating world changing software and
-          technology.
+          technologies.
         </p>
         <p className="text-md">
           I was recently employed by a small startup called Carrion Technologies
