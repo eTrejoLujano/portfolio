@@ -61,7 +61,7 @@ const About = () => {
         </div>
         <p className="text-md">
           I'm a full-stack developer who was born and raised in San Jose and
-          with a Bachelors degree from San Jose State University.
+          with a Bachelor's degree from San Jose State University.
         </p>
       </div>
       <div className="space-y-3">
@@ -76,10 +76,10 @@ const About = () => {
         </p>
         <p className="text-md">
           I was recently employed by a small startup called Carrion Technologies
-          LLC where I worked on the iRent website for a client of ours. After
-          innovating the website, I've been working on my skills by building
-          Dashed Eats which helped me practice and learn Tailwind CSS and
-          Django. I'm now looking to build a strong foundation for the
+          LLC where I worked on iRent, a property management software, for a
+          client. After innovating the software, I've been working on my skills
+          by building Dashed Eats which helped me practice and learn Tailwind
+          CSS and Django. I'm now looking to build a strong foundation for the
           fundamentals of frontend development while also specializing in more
           backend technologies. To achieve this I'm developing a Trello clone
           website with a vanilla Javascript frontend and a Golang backend.

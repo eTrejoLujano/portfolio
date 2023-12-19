@@ -77,7 +77,7 @@ const Portfolio = ({ modalInfo, openModal, closeModal }) => {
         "Dashed Eats is strictly a personal project and does not place real orders.",
       ],
       links: [
-        { name: "Read Me", exist: true },
+        { name: "Preview", exist: true },
         {
           name: "Code",
           exist: "https://github.com/eTrejoLujano/dashed-eats-react",
@@ -114,7 +114,7 @@ const Portfolio = ({ modalInfo, openModal, closeModal }) => {
         "iRent also equips the user with the ability to manage and receive information on tenant screening, full accounting, reporting, and online tenant payment capabilities.",
       ],
       links: [
-        { name: "Read Me", exist: true },
+        { name: "Preview", exist: true },
         {
           name: "Code",
           exist: false,
@@ -177,7 +177,7 @@ const Portfolio = ({ modalInfo, openModal, closeModal }) => {
         "Users have the ability to depict a direction for their project by utilizing the virtual collaborative whiteboard tool, Excalidraw, in the projects sidebar menu.",
       ],
       links: [
-        { name: "Read Me", exist: true },
+        { name: "Preview", exist: true },
         {
           name: "Code",
           exist: "https://github.com/eTrejoLujano/WorkFlo",
@@ -213,7 +213,7 @@ const Portfolio = ({ modalInfo, openModal, closeModal }) => {
         "The website is strictly a group project for the Full Stack Academy bootcamp, not meant to take real orders.",
       ],
       links: [
-        { name: "Read Me", exist: true },
+        { name: "Preview", exist: true },
         {
           name: "Code",
           exist: "https://github.com/eTrejoLujano/Oregano",

@@ -23,7 +23,7 @@ const Navbar = () => {
      text-teal-600 bg-opacity-0 fixed"
       >
         <div>
-          <h1 className="text-4xl font-signature">Erik Trejo</h1>
+          <h1 className="text-6xl font-signature">Erik Trejo</h1>
         </div>
       </div>
       <div className="fixed w-full h-20 flex justify-center bottom-2 pb-[1rem] pointer-events-none">
