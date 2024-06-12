@@ -1,9 +1,14 @@
 import React from "react";
 import Description from "./Description";
+import BrothersPainting from "../../assets/logos/brotherspainting.jpg";
 import DashedEats from "../../assets/logos/dashedeats.png";
 import iRent from "../../assets/logos/irent.png";
 import WorkFlo from "../../assets/logos/workflo.jpg";
 import Oregano from "../../assets/logos/oregano.png";
+import BR1 from "../../assets/projects/BrothersPainting/HomePage.png";
+import BR2 from "../../assets/projects/BrothersPainting/Page0.png";
+import BR3 from "../../assets/projects/BrothersPainting/Page1.png";
+import BR4 from "../../assets/projects/BrothersPainting/Page2.png";
 import DE1 from "../../assets/projects/DashedEats/Page1.png";
 import DE2 from "../../assets/projects/DashedEats/Page2.png";
 import DE3 from "../../assets/projects/DashedEats/Page3.png";
@@ -49,6 +54,29 @@ import iR23 from "../../assets/projects/iRent/Page23.jpeg";
 
 const Portfolio = ({ modalInfo, openModal, closeModal }) => {
   const projects = [
+    {
+      name: "The Brothers Painting",
+      techStack: ["Javascript", "React", "Tailwind CSS", "HTML", "CSS"],
+      logo: (
+        <img
+          alt=""
+          src={BrothersPainting}
+          className="w-[30rem] rounded-full bg-white aspect-square"
+        />
+      ),
+      description: [
+        "The Brothers Painting is a website that was developed using Javascript, React, and Tailwind CSS.",
+        "It gives customers the ability to request estimates for different services and get in contact with the owner.",
+        "Customers can see the the company's past work, visit their social media, and view the reviews left by other customers.",
+      ],
+      links: [
+        { name: "Read Me", exist: true },
+        { name: "Live", exist: "https://thebrotherspainting.netlify.app/" },
+      ],
+      readMe: [BR1, BR2, BR3, BR4],
+      readMeDescription:
+        "A small business that specializes in commercial and residential painting services.",
+    },
     {
       name: "Dashed Eats",
       techStack: [
@@ -182,7 +210,7 @@ const Portfolio = ({ modalInfo, openModal, closeModal }) => {
           name: "Code",
           exist: "https://github.com/eTrejoLujano/WorkFlo",
         },
-        { name: "Live", exist: "https://workfloproduction.onrender.com/" },
+        // { name: "Live", exist: "https://workfloproduction.onrender.com/" },
       ],
       readMe: [WF1, WF2, WF3, WF4, WF5],
       readMeDescription:
@@ -218,7 +246,7 @@ const Portfolio = ({ modalInfo, openModal, closeModal }) => {
           name: "Code",
           exist: "https://github.com/eTrejoLujano/Oregano",
         },
-        { name: "Live", exist: "https://oreganoproduction.onrender.com/" },
+        // { name: "Live", exist: "https://oreganoproduction.onrender.com/" },
       ],
       readMe: [O1, O2, O3, O4, O5, O6],
       readMeDescription:

@@ -60,8 +60,19 @@ const About = () => {
           <p className="font-bold text-xl">Hi there, I'm Erik!</p>
         </div>
         <p className="text-md">
-          I'm a full-stack developer who was born and raised in San Jose and
-          with a Bachelor's degree from San Jose State University.
+          I was born, raised, and attended University in San Jose. I’m currently
+          doing freelance work for small businesses by developing their website
+          and helping them gain an online presence. I’m consistently learning
+          new technologies and applying them to current projects. At the moment,
+          I am learning and using GO to develop an interpreter and afterwards, a
+          compiler. I’m also working on a product that helps consumers manage
+          and keep track of their finances by utilizing different visual tools
+          such as graphs and charts. I have a love and genuine interest in
+          engineering. Being from the Bay Area, I’ve worked with people from all
+          different backgrounds and cultures which has made me someone who can
+          effortlessly collaborate with others and coordinate effectively to
+          meet weekly deadlines. I’m easy to talk to and I feel that there’s
+          always something new you can learn from everyone.
         </p>
       </div>
       <div className="space-y-3">
@@ -72,17 +83,15 @@ const About = () => {
           Stack Academy full-time bootcamp. Since writing my first line of code,
           I've been passionate about the power of programming and how much
           potential it holds for creating world changing software and
-          technologies.
+          technologies. The fact I’m able to develop any idea that comes to mind
+          through a keyboard is what attracts me to this industry the most!
         </p>
         <p className="text-md">
           I was recently employed by a small startup called Carrion Technologies
           LLC where I worked on iRent, a property management software, for a
           client. After innovating the software, I've been working on my skills
           by building Dashed Eats which helped me practice and learn Tailwind
-          CSS and Django. I'm now looking to build a strong foundation for the
-          fundamentals of frontend development while also specializing in more
-          backend technologies. To achieve this I'm developing a Trello clone
-          website with a vanilla Javascript frontend and a Golang backend.
+          CSS and Django.
         </p>
       </div>
       <div className="space-y-6">
