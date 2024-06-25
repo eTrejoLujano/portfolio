@@ -67,7 +67,7 @@ const Portfolio = ({ modalInfo, openModal, closeModal }) => {
       description: [
         "The Brothers Painting is a website that was developed using Javascript, React, and Tailwind CSS.",
         "It gives customers the ability to request estimates for different services and get in contact with the owner.",
-        "Customers can see the the company's past work, visit their social media, and view the reviews left by other customers.",
+        "Customers can see the company's past work, visit their social media, and view the reviews left by other customers.",
       ],
       links: [
         { name: "Read Me", exist: true },

@@ -89,9 +89,12 @@ const About = () => {
         <p className="text-md">
           I was recently employed by a small startup called Carrion Technologies
           LLC where I worked on iRent, a property management software, for a
-          client. After innovating the software, I've been working on my skills
-          by building Dashed Eats which helped me practice and learn Tailwind
-          CSS and Django.
+          client. After innovating the software, I improved my development
+          skills by building Dashed Eats which helped me practice and learn
+          Tailwind CSS and Django. I'm now bulding an interpreter using Golang
+          and I'm also developing a product that helps consumers manage their
+          finances. The backend is going to be built with Golang and will only
+          use SQL to interact with the database.
         </p>
       </div>
       <div className="space-y-6">
